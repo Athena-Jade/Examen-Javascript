@@ -1,0 +1,71 @@
+.bloc-texte { /* div qui encadre mes span */
+    position: relative;
+    z-index: 1;
+}
+
+.texte-sur-photo1 { /* Span Bienvenue a bord*/
+    position: absolute;
+    z-index: 3;
+    left: 40%;
+    top: 2%;
+    color: white;
+    font-size: 7vh;
+}
+
+.texte-sur-photo2 { /* Span 24/24 7/7 */
+    position: absolute;
+    z-index: 2;
+    left: 45%;
+    top: 15%;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.bloc-formulaire {
+    position: absolute;
+    z-index: 2;
+    top:80%;
+    left: 27%;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.champ {
+    width: 70%;
+}
+
+
+
+   
+  
+
+
+img.agence
+{
+    float: center; margin-left: 600px;
+}  
+
+P.text
+{
+    text-align: left;
+}
+   
+   
+ 
+
+
+
+
+    
+    
+    
+  
+
+
