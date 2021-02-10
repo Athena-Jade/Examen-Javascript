@@ -1,3 +1,53 @@
+.conteneur {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 2ème carousel*/
+#carousel {
+    position: relative;
+    width: 640px;
+    height: 350px;
+
+}
+
+
+#carousel image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 650px;
+    height: 350px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+
+
+button {
+    width: 30%;
+    padding: 2%;
+    border: 1px solid rgb(20, 182, 20);
+    background-color: rgb(20, 182, 20);
+    border-radius: 6%;
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+.voiture1 {
+    margin-top: 100px;
+}
+
+
+
+
+
+
 .bloc-texte { /* div qui encadre mes span */
     position: relative;
     z-index: 1;
@@ -40,8 +90,6 @@
 .champ {
     width: 70%;
 }
-
-
 
    
   
